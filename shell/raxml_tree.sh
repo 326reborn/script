@@ -1,0 +1,1 @@
+/stor9000/apps/users/NWSUAF/2015060152/bin/RAxML-master/raxmlHPC-PTHREADS -f a -x 123 -p 23 -N 100 -k -s single_copy.19_19.61connected.fa -m PROTGAMMAJTTF -T 6 -o Isotricha.paraprostoma.SAG1,Isotricha.prostoma.SAG3,Isotricha.intestinalis.SAG3,Isotricha.jalaludinii.SAG2,Dasytricha.ruminantium.SAG3 -n 19rooted_ciliate.raxml

@@ -1,0 +1,12 @@
+nt/nr
+ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nt.gz
+ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nr.gz
+
+taxonomy info
+ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/accession2taxid/nucl_gb.accession2taxid.gz
+ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/accession2taxid/prot.accession2taxid.gz
+https://gitlab.com/zyxue/ncbitax2lin-lineages/blob/master/lineages-2019-02-20.csv.gz
+
+gene info
+ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2accession.gz
+ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene_info.gz

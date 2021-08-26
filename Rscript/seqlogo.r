@@ -1,0 +1,10 @@
+library(ggplot2)
+library(ggseqlogo)
+args<-(commandArgs(TRUE))
+#data<-read.csv(file<-"D:\\张禹研究生文档\\课题\\瘤胃微生物（李宗军师兄）\\genomic\\test.fa.f",header=FALSE)
+data<-read.delim(file<-args[1],sep="\t",header=FALSE,encoding = "utf-8")
+data<as.vector(data$V1)
+logo<-ggseqlogo(data,method="prob")
+pdf(args[2],width = 100,height = 3)#序列过多会卡
+print(logo)
+dev.off()

@@ -1,0 +1,5 @@
+library(reshape2)
+library(ggplot2)
+data <- read.csv(file<-"D:\\张禹研究生文档\\课题\\瘤胃微生物（李宗军师兄）\\genomic\\merged_genome_size.txt",sep="\t",header=TRUE)
+data2 <- melt(data,id.vars=c("sample"),variable.name="taxonomy",value.name="genome_size",na.rm=TRUE)
+ggplot(data2,aes(x=sample,y=genome_size,fill=taxonomy))+geom_bar(stat='identity', position = 'dodge')+ theme_bw() + theme(panel.border = element_blank(), panel.grid.major = element_blank(),panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"))
